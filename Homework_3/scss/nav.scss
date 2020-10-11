@@ -1,0 +1,38 @@
+nav{
+    height: 50px;
+    background-color: rgba(155, 200, 100, 0.4);
+    display: flex;
+    margin-left: 2%;
+    margin-right: 7%;
+    margin-top: 1%;
+    border-radius: 10px;
+
+    .logo{
+        background-image: url(../img/logo.png);
+        background-repeat: no-repeat;
+        //background-size: cover;
+        width: 250px;
+        margin: 10px;
+        
+    }
+
+    a{
+    color: yellowgreen;
+    opacity: 1;
+    text-decoration: none;
+    font-size: large;
+    margin: auto;
+    transition: all .3s ease-in-out;
+    }
+
+    a:hover{
+        transform: scale(1.2);
+        color: yellow;
+        border-style: solid;
+        border-radius: 5px;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}

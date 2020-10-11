@@ -1,0 +1,19 @@
+{
+  "name": "homework_2",
+  "version": "1.0.0",
+  "description": "Here is where the description goes",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server",
+    "compile:sass": "node-sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "Zachary Roberts",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

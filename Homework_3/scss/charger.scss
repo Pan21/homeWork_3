@@ -1,0 +1,47 @@
+.chargerContain{
+    margin: 50px;
+    width: 90%;
+    display: flex;
+
+    .hero{
+        width: 80%;
+
+        .img{
+            background-image: url(../img/2020-dodge-bhp-charger-incentives.jpg.image.1440.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 700px;
+            width: 120%;
+            border-radius: 20px;
+
+
+            .content{
+
+                padding-top: 300px;
+
+                p{
+                    width: 50%;
+                    font-size: larger;
+                    color: white;
+                    //margin: auto;
+                    text-align: center;
+                    background-color: rgba(32, 32, 32, .5);
+                    border-radius: 10px;
+                }
+    
+                .buy{
+                    font-size: xx-large;
+                    width: 200px;
+                    height: 100px;
+                    margin-top: 5%;
+                    margin-left: 44%;
+                    border-radius: 25px;
+                    background-color: rgba(1, 58, 23, .8);
+    
+                }
+
+            }
+    }
+}
+}

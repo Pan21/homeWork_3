@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  background-color: #202020;
+  width: 1920px; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px; }
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0; }
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+nav {
+  height: 50px;
+  background-color: rgba(155, 200, 100, 0.4);
+  display: flex;
+  margin-left: 2%;
+  margin-right: 7%;
+  margin-top: 1%;
+  border-radius: 10px; }
+  nav .logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    margin: 10px; }
+  nav a {
+    color: yellowgreen;
+    opacity: 1;
+    text-decoration: none;
+    font-size: large;
+    margin: auto;
+    transition: all .3s ease-in-out; }
+  nav a:hover {
+    transform: scale(1.2);
+    color: yellow;
+    border-style: solid;
+    border-radius: 5px;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    padding-right: 5%;
+    padding-left: 5%; }
+
+.homeContain {
+  margin: 50px;
+  width: 90%;
+  display: flex; }
+  .homeContain .hero {
+    width: 80%; }
+    .homeContain .hero .img {
+      background-image: url(../img/Dodge-Challenger-q1-bhp-hero-srt-1.jpg.image.1440.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 800px;
+      width: 120%;
+      border-radius: 20px; }
+      .homeContain .hero .img .content {
+        padding-top: 300px; }
+        .homeContain .hero .img .content p {
+          width: 50%;
+          font-size: larger;
+          color: white;
+          margin: auto;
+          text-align: center;
+          background-color: rgba(32, 32, 32, 0.5);
+          border-radius: 10px; }
+        .homeContain .hero .img .content .buy {
+          font-size: xx-large;
+          width: 200px;
+          height: 100px;
+          margin-top: 5%;
+          margin-left: 44%;
+          border-radius: 25px;
+          background-color: rgba(1, 58, 23, 0.8); }
+
+.chargerContain {
+  margin: 50px;
+  width: 90%;
+  display: flex; }
+  .chargerContain .hero {
+    width: 80%; }
+    .chargerContain .hero .img {
+      background-image: url(../img/2020-dodge-bhp-charger-incentives.jpg.image.1440.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 700px;
+      width: 120%;
+      border-radius: 20px; }
+      .chargerContain .hero .img .content {
+        padding-top: 300px; }
+        .chargerContain .hero .img .content p {
+          width: 50%;
+          font-size: larger;
+          color: white;
+          text-align: center;
+          background-color: rgba(32, 32, 32, 0.5);
+          border-radius: 10px; }
+        .chargerContain .hero .img .content .buy {
+          font-size: xx-large;
+          width: 200px;
+          height: 100px;
+          margin-top: 5%;
+          margin-left: 44%;
+          border-radius: 25px;
+          background-color: rgba(1, 58, 23, 0.8); }
+
+.challengerContain {
+  margin: 50px;
+  width: 90%;
+  display: flex; }
+  .challengerContain .hero {
+    width: 80%; }
+    .challengerContain .hero .img {
+      background-image: url(../img/2020-dodge-challenger-vlp-gallery-4-es.jpg.image.1440.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 700px;
+      width: 120%;
+      border-radius: 20px; }
+      .challengerContain .hero .img .content {
+        padding-top: 300px; }
+        .challengerContain .hero .img .content .textLft {
+          float: right; }
+        .challengerContain .hero .img .content .textRght {
+          width: 1000px; }
+        .challengerContain .hero .img .content p {
+          width: 50%;
+          font-size: larger;
+          color: rgba(0, 0, 0, 0.8);
+          text-align: center;
+          background-color: rgba(255, 255, 255, 0.5);
+          border-radius: 10px; }
+        .challengerContain .hero .img .content .buy {
+          font-size: xx-large;
+          width: 200px;
+          height: 100px;
+          margin-top: 5%;
+          margin-left: 44%;
+          border-radius: 25px;
+          background-color: rgba(1, 58, 23, 0.8); }
+
+.durangoContain {
+  margin: 50px;
+  width: 90%;
+  display: flex; }
+  .durangoContain .hero {
+    width: 80%; }
+    .durangoContain .hero .img {
+      background-image: url(../img/Dodge-Durango-q1-bhp-hero-srt.jpg.image.1440.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 700px;
+      width: 120%;
+      border-radius: 20px; }
+      .durangoContain .hero .img .content .textLft {
+        float: right;
+        padding-top: 500px; }
+      .durangoContain .hero .img .content .textRght {
+        width: 1000px; }
+      .durangoContain .hero .img .content p {
+        width: 50%;
+        font-size: larger;
+        color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px; }
+      .durangoContain .hero .img .content .buy {
+        font-size: xx-large;
+        width: 200px;
+        height: 100px;
+        margin-top: 5%;
+        margin-left: 44%;
+        border-radius: 25px;
+        background-color: rgba(1, 58, 23, 0.8); }
+
+.ramContain {
+  margin: 50px;
+  width: 90%;
+  display: flex; }
+  .ramContain .hero {
+    width: 80%; }
+    .ramContain .hero .img {
+      background-image: url(../img/ram-truck.webp);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 700px;
+      width: 120%;
+      border-radius: 20px; }
+      .ramContain .hero .img .content .textLft {
+        float: right; }
+      .ramContain .hero .img .content .textRght {
+        width: 1000px;
+        padding-top: 500px; }
+      .ramContain .hero .img .content p {
+        width: 50%;
+        font-size: larger;
+        color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px; }
+      .ramContain .hero .img .content .buy {
+        font-size: xx-large;
+        width: 200px;
+        height: 100px;
+        margin-top: 5%;
+        margin-left: 44%;
+        border-radius: 25px;
+        background-color: rgba(1, 58, 23, 0.8); }
